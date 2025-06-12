@@ -17,7 +17,7 @@ app.get("/api", (req, res) => {
   });
 });
 
-const PORT = 3000;
+const PORT = 30126;
 app.listen(PORT, () => {
-  console.log(`QR Image Proxy running at http://localhost:3000/api?data=Hello`);
+  console.log(`QR Image Proxy running at http://localhost:30126/api?data=Hello`);
 });
